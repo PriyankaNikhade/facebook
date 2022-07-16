@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="MsEdgeBrowser(failed)">
+    <parameter name="browserName" value="Chrome"/>
+    <classes>
+      <class name="testNGFB.FacebookApplicationTestNG">
+        <methods>
+          <include name="verifyWatchLive"/>
+          <include name="clearObject"/>
+          <include name="loginFB"/>
+          <include name="verifyMarketPlace"/>
+          <include name="browserLaunch"/>
+          <include name="allPomClassObjectCreate"/>
+          <include name="closedBrowser"/>
+          <include name="verifyFriendsURL"/>
+          <include name="logoutFromFaceBook"/>
+        </methods>
+      </class> <!-- testNGFB.FacebookApplicationTestNG -->
+    </classes>
+  </test> <!-- MsEdgeBrowser(failed) -->
+</suite> <!-- Failed suite [Suite] -->

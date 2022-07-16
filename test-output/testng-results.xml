@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-14T14:37:34 IST" name="Failed suite [Failed suite [Suite]]" finished-at="2022-07-14T14:38:15 IST" duration-ms="41299">
+    <groups>
+    </groups>
+    <test started-at="2022-07-14T14:37:34 IST" name="MsEdgeBrowser(failed)(failed)" finished-at="2022-07-14T14:38:15 IST" duration-ms="41299">
+      <class name="testNGFB.FacebookApplicationTestNG">
+        <test-method is-config="true" signature="browserLaunch(java.lang.String)[pri:0, instance:testNGFB.FacebookApplicationTestNG@44ebcd03]" started-at="2022-07-14T14:37:34 IST" name="browserLaunch" finished-at="2022-07-14T14:37:37 IST" duration-ms="3043" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method is-config="true" signature="allPomClassObjectCreate()[pri:0, instance:testNGFB.FacebookApplicationTestNG@44ebcd03]" started-at="2022-07-14T14:37:37 IST" name="allPomClassObjectCreate" finished-at="2022-07-14T14:37:37 IST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allPomClassObjectCreate -->
+        <test-method is-config="true" signature="loginFB()[pri:0, instance:testNGFB.FacebookApplicationTestNG@44ebcd03]" started-at="2022-07-14T14:37:37 IST" name="loginFB" finished-at="2022-07-14T14:37:44 IST" duration-ms="6842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFB -->
+        <test-method signature="verifyWatchLive()[pri:0, instance:testNGFB.FacebookApplicationTestNG@44ebcd03]" started-at="2022-07-14T14:37:44 IST" name="verifyWatchLive" finished-at="2022-07-14T14:37:45 IST" duration-ms="1676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWatchLive -->
+        <test-method is-config="true" signature="logoutFromFaceBook(org.testng.ITestResult)[pri:0, instance:testNGFB.FacebookApplicationTestNG@44ebcd03]" started-at="2022-07-14T14:37:45 IST" name="logoutFromFaceBook" finished-at="2022-07-14T14:37:49 IST" duration-ms="3085" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWatchLive status=SUCCESS method=FacebookApplicationTestNG.verifyWatchLive()[pri:0, instance:testNGFB.FacebookApplicationTestNG@44ebcd03] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromFaceBook -->
+        <test-method is-config="true" signature="loginFB()[pri:0, instance:testNGFB.FacebookApplicationTestNG@44ebcd03]" started-at="2022-07-14T14:37:49 IST" name="loginFB" finished-at="2022-07-14T14:37:55 IST" duration-ms="6533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFB -->
+        <test-method signature="verifyFriendsURL()[pri:1, instance:testNGFB.FacebookApplicationTestNG@44ebcd03]" started-at="2022-07-14T14:37:55 IST" name="verifyFriendsURL" finished-at="2022-07-14T14:37:59 IST" duration-ms="3669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFriendsURL -->
+        <test-method is-config="true" signature="logoutFromFaceBook(org.testng.ITestResult)[pri:0, instance:testNGFB.FacebookApplicationTestNG@44ebcd03]" started-at="2022-07-14T14:37:59 IST" name="logoutFromFaceBook" finished-at="2022-07-14T14:38:02 IST" duration-ms="3271" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFriendsURL status=SUCCESS method=FacebookApplicationTestNG.verifyFriendsURL()[pri:1, instance:testNGFB.FacebookApplicationTestNG@44ebcd03] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromFaceBook -->
+        <test-method is-config="true" signature="loginFB()[pri:0, instance:testNGFB.FacebookApplicationTestNG@44ebcd03]" started-at="2022-07-14T14:38:02 IST" name="loginFB" finished-at="2022-07-14T14:38:07 IST" duration-ms="5269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFB -->
+        <test-method signature="verifyMarketPlace()[pri:2, instance:testNGFB.FacebookApplicationTestNG@44ebcd03]" started-at="2022-07-14T14:38:07 IST" name="verifyMarketPlace" finished-at="2022-07-14T14:38:09 IST" duration-ms="1983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMarketPlace -->
+        <test-method is-config="true" signature="logoutFromFaceBook(org.testng.ITestResult)[pri:0, instance:testNGFB.FacebookApplicationTestNG@44ebcd03]" started-at="2022-07-14T14:38:09 IST" name="logoutFromFaceBook" finished-at="2022-07-14T14:38:14 IST" duration-ms="4494" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyMarketPlace status=SUCCESS method=FacebookApplicationTestNG.verifyMarketPlace()[pri:2, instance:testNGFB.FacebookApplicationTestNG@44ebcd03] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromFaceBook -->
+        <test-method is-config="true" signature="clearObject()[pri:0, instance:testNGFB.FacebookApplicationTestNG@44ebcd03]" started-at="2022-07-14T14:38:14 IST" name="clearObject" finished-at="2022-07-14T14:38:14 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObject -->
+        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:testNGFB.FacebookApplicationTestNG@44ebcd03]" started-at="2022-07-14T14:38:14 IST" name="closedBrowser" finished-at="2022-07-14T14:38:15 IST" duration-ms="1245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedBrowser -->
+      </class> <!-- testNGFB.FacebookApplicationTestNG -->
+    </test> <!-- MsEdgeBrowser(failed)(failed) -->
+  </suite> <!-- Failed suite [Failed suite [Suite]] -->
+</testng-results>
