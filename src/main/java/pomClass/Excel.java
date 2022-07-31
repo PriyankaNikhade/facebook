@@ -14,6 +14,7 @@ public class Excel {
 	FileInputStream file = new FileInputStream(path);
 	Workbook book = WorkbookFactory.create(file);
 	
+	
 	//Get string data from excel sheet fetch in program.
 	String text =book.getSheet("Test").getRow(8).getCell(1).getStringCellValue();
 	System.out.println(text);
